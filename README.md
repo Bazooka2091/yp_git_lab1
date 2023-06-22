@@ -7,9 +7,9 @@
 
 ## Как делать поток
 ```mermaid
-graph dataFlow;
-    A[init_subscription];
-    A --> B[subscribe];
-    B --> C[Pipe];
-    D --> E[tap];
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
