@@ -10,6 +10,6 @@
 data_flow
     A[init_subscription]
     A --> B[subscribe]
-    B --> C[Pipe] --> D[map]
-    D --> E[tap] --> F[console.log]
+    B --> C[Pipe]
+    D --> E[tap]
 ```
